@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dca9955b-a9b8-4a2e-98ef-f82ad8e73b7f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YvUkZlQxYUTFwapSkvf7DMobdV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../source_code/bridge" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/database/mongoDB" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Mocha.This is for test only">
+    <configuration name="Test mock" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>$USER_HOME$/.nvm/versions/node/v10.19.0/bin/node</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/test.js</test-file>
+      <test-names>
+        <name value="Test mock" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="This is for test only" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>$USER_HOME$/.nvm/versions/node/v10.19.0/bin/node</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/test/test.js</test-file>
+      <test-names>
+        <name value="This is for test only" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="should return true if valid user id" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>$USER_HOME$/.nvm/versions/node/v10.19.0/bin/node</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/test.js</test-file>
+      <test-names>
+        <name value="should return true if valid user id" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Mocha.This is for test only" />
+        <item itemvalue="Mocha.Test mock" />
+        <item itemvalue="Mocha.should return true if valid user id" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dca9955b-a9b8-4a2e-98ef-f82ad8e73b7f" name="Default Changelist" comment="" />
+      <created>1583822705139</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583822705139</updated>
+      <workItem from="1583822707379" duration="4700000" />
+      <workItem from="1583833037376" duration="7058000" />
+      <workItem from="1583897922221" duration="8426000" />
+      <workItem from="1583915749473" duration="88000" />
+      <workItem from="1583921210303" duration="3377000" />
+      <workItem from="1583979604680" duration="1333000" />
+      <workItem from="1583982624359" duration="8806000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="588" y="214" width="800" height="677" key="#File_Watchers" timestamp="1583909100008">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="214" width="800" height="677" key="#File_Watchers/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583909100008" />
+    <state x="669" y="212" width="637" height="682" key="#Test_mock" timestamp="1583984471516">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="669" y="212" width="637" height="682" key="#Test_mock/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583984471516" />
+    <state x="669" y="212" width="637" height="682" key="#This_is_for_test_only" timestamp="1583984809558">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="669" y="212" width="637" height="682" key="#This_is_for_test_only/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583984809558" />
+    <state x="451" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583983982794">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="451" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583983982794" />
+    <state x="393" y="153" width="1200" height="800" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583984852202">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="393" y="153" width="1200" height="800" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583984852202" />
+    <state x="669" y="212" width="637" height="682" key="#should_return_true_if_valid_user_id" timestamp="1583984411324">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="669" y="212" width="637" height="682" key="#should_return_true_if_valid_user_id/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583984411324" />
+    <state x="628" y="330" width="719" height="445" key="EditFileWatcherDialog" timestamp="1583909067941">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="628" y="330" width="719" height="445" key="EditFileWatcherDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583909067941" />
+    <state x="776" y="311" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583983087224">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="311" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583983087224" />
+    <state width="1354" height="260" key="GridCell.Tab.0.bottom" timestamp="1583985516956">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1354" height="260" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583985516956" />
+    <state width="1354" height="260" key="GridCell.Tab.0.center" timestamp="1583985516956">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1354" height="260" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583985516956" />
+    <state width="1354" height="260" key="GridCell.Tab.0.left" timestamp="1583985516956">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1354" height="260" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583985516956" />
+    <state width="1354" height="260" key="GridCell.Tab.0.right" timestamp="1583985516956">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1354" height="260" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583985516956" />
+    <state x="482" y="188" key="SettingsEditor" timestamp="1583984014723">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="482" y="188" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583984014723" />
+    <state x="656" y="272" width="672" height="678" key="search.everywhere.popup" timestamp="1583909173396">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="656" y="272" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583909173396" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/nodejs$Test_mock.dat" NAME="Test mock Coverage Results" MODIFIED="1583984498960" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="MochaJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
