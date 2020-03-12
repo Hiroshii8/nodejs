@@ -17,4 +17,4 @@ const biodataSchema = new Schema({
     }
 });
 
-module.exports = mongoose.model('Biodata', biodataSchema);
+module.exports.Biodata = mongoose.model('Biodata', biodataSchema);

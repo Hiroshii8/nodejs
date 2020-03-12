@@ -1,33 +1,21 @@
 const promise = require('bluebird');
 const redis = require('redis');
+redisClient = redis.createClient()
+promise.promisifyAll(redisClient)
 
-promise.promisifyAll(redis.createClient())
-
-module.exports = {
-    get: async (key) => {
-        return await redis.getAsync(key)
-            .then((res) => {
-                return res;
-            })
-            .catch((err) => {
-                return null;
-            });
-    },
-    set: async (key, value) => {
-        return await redis.set(key, value)
-            .then(() => {
-                return true
-            })
-            .catch((err) => {
-                return false;
-        });
-    },
-    incr: async (key) => {
-        return await redis.incr(key).then(() => {
-            return true;
+module.exports.redis = {
+    GET: async (key) => {
+        return redisClient.getAsync(key).then((res) => {
+            return res;
         }).catch((err) => {
-            console.log(err);
-            return false;
+            return null;
         });
+    },
+    SET: async (key, value) => {
+        return (await redisClient.set(key, value) ? true : false);
+    },
+    INCR: async (key) => {
+        return (await redisClient.incr(key) ? true : false);
     }
+
 }

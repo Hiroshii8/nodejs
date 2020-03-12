@@ -1,6 +1,7 @@
-const mongoDB = require('./mongoDB/mongo');
+// const mongoDB = require('./mongoDB/mongo');
 const redis = require('./redis');
-const postgre = require('./postgre');
+// const postgre = require('./postgre');
+// db.Database.mongoDB.Promise = global.Promise;
 
 function createDatabase(mongoDB, redis, postgreDB){
     return {
@@ -9,6 +10,5 @@ function createDatabase(mongoDB, redis, postgreDB){
         postgreDB
     };
 }
-
 // wrap all database with object like DI
-module.exports.Database = createDatabase(mongoDB.mongoDB, redis, null);
+module.exports.Database = createDatabase(null, redis.redis, null);
