@@ -3,6 +3,8 @@ const redis = require('redis');
 redisClient = redis.createClient()
 promise.promisifyAll(redisClient)
 
+
+// redis WRAPPER 
 module.exports.redis = {
     GET: async (key) => {
         return redisClient.getAsync(key).then((res) => {
@@ -17,5 +19,4 @@ module.exports.redis = {
     INCR: async (key) => {
         return (await redisClient.incr(key) ? true : false);
     }
-
 }
