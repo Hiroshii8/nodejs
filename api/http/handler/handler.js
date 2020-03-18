@@ -1,14 +1,14 @@
 // inject people service
 
-function Handler(PeopleServiceInject) {
+function Handler(PeopleService) {
     async function getEmployeeAttendance(req, res) {
         console.log("GET - REDIS");
-        let result = await PeopleServiceInject.getEmployeeAttendanceByName(req.body.key);
+        let result = await PeopleService.getEmployeeAttendanceByName(req.body.key);
         return res.json(result);
     }
     async function setEmployeeAttendance(req, res) {
         console.log("SET - REDIS");
-        let result = await PeopleServiceInject.setEmployeeAttendance(req.body.key);
+        let result = await PeopleService.setEmployeeAttendance(req.body.key);
         return res.json(result);
     }
     return {
@@ -17,4 +17,4 @@ function Handler(PeopleServiceInject) {
     }
 }
 
-module.exports.Init = (PeopleServiceInject) => Handler(PeopleServiceInject);
+module.exports.Init = (PeopleService) => Handler(PeopleService);

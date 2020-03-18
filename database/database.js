@@ -1,14 +1,12 @@
-// const mongoDB = require('./mongoDB/mongo');
-const redis = require('./redis');
-// const postgre = require('./postgre');
-// db.Database.mongoDB.Promise = global.Promise;
+const redis = require('./Redis/redis');
+const postgreSeq = require('./Sequelize/sequelize');
 
-function createDatabase(mongoDB, redis, postgreDB){
+function createDatabase(mongoDB, redis, Sequelize){
     return {
         mongoDB,
         redis,
-        postgreDB
+        Sequelize
     };
 }
 // wrap all database with object like DI
-module.exports.Database = createDatabase(null, redis.redis, null);
+module.exports.Database = createDatabase(null, redis.redis, postgreSeq);

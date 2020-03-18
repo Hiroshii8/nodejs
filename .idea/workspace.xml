@@ -3,7 +3,61 @@
   <component name="ChangeListManager">
     <list default="true" id="dca9955b-a9b8-4a2e-98ef-f82ad8e73b7f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/Sequelize/sequelize.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/Sequelize/sequelize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/any-promise/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/any-promise/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/babel-runtime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/babel-runtime/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bluebird/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bluebird/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cli-color/node_modules/ansi-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cli-color/node_modules/ansi-regex/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cli-color/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cli-color/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cls-bluebird/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cls-bluebird/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/commander/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/config-chain/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/config-chain/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/core-js/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/core-js/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/d/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/d/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dottie/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dottie/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/editorconfig/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/editorconfig/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es5-ext/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/es5-ext/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-iterator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/es6-iterator/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-symbol/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/es6-symbol/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es6-weak-map/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/es6-weak-map/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/event-emitter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/event-emitter/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ext/node_modules/type/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ext/node_modules/type/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ext/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ext/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fs-extra/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/inflection/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/inflection/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-bluebird/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-bluebird/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-promise/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-promise/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-beautify/node_modules/nopt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/js-beautify/node_modules/nopt/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/js-beautify/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/js-beautify/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jsonfile/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jsonfile/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/lru-queue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lru-queue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/memoizee/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/memoizee/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment-timezone/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment-timezone/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/moment/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/moment/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/next-tick/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/next-tick/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/os-homedir/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/os-homedir/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/os-tmpdir/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/os-tmpdir/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/osenv/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/osenv/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/proto-list/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/proto-list/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regenerator-runtime/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/regenerator-runtime/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/retry-as-promised/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/retry-as-promised/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize-cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize-cli/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize-pool/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize-pool/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/debug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/debug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/ms/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/ms/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/node_modules/semver/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sequelize/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sequelize/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/shimmer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/shimmer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sigmund/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sigmund/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/timers-ext/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/timers-ext/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/toposort-class/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/toposort-class/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/type/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/type/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/umzug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/umzug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/universalify/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/universalify/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/validator/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/validator/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wkx/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/wkx/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +74,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectId" id="1YvUkZlQxYUTFwapSkvf7DMobdV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,17 +84,26 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../bridge" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/api/http" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/node_modules/mocha" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/http" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/database/mongoDB" />
+      <recent name="$PROJECT_DIR$/api/http/controller" />
+      <recent name="$PROJECT_DIR$/api/http/routerSequelize" />
+      <recent name="$PROJECT_DIR$/database/Redis" />
+      <recent name="$PROJECT_DIR$/database" />
+      <recent name="$PROJECT_DIR$/service/petshop" />
     </key>
   </component>
   <component name="RunManager" selected="Mocha.This is for test only">
@@ -114,6 +180,11 @@
       <workItem from="1584255255453" duration="546000" />
       <workItem from="1584278089596" duration="3625000" />
       <workItem from="1584282516016" duration="85000" />
+      <workItem from="1584499407737" duration="772000" />
+      <workItem from="1584500214641" duration="413000" />
+      <workItem from="1584500652432" duration="14215000" />
+      <workItem from="1584516092939" duration="5105000" />
+      <workItem from="1584525002423" duration="980000" />
     </task>
     <servers />
   </component>
@@ -141,6 +212,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="393" y="153" width="1200" height="800" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583984852202" />
+    <state x="419" y="235" width="518" height="321" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1584500006489">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="419" y="235" width="518" height="321" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.27.1366.741@0.27.1366.741" timestamp="1584500006489" />
     <state x="669" y="212" width="637" height="682" key="#should_return_true_if_valid_user_id" timestamp="1583984411324">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -170,13 +245,19 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1354" height="260" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583985516956" />
-    <state x="482" y="188" key="SettingsEditor" timestamp="1583984014723">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="306" y="38" key="SettingsEditor" timestamp="1584500620479">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
+    <state x="306" y="38" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1584500620479" />
     <state x="482" y="188" key="SettingsEditor/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583984014723" />
-    <state x="656" y="272" width="672" height="678" key="search.everywhere.popup" timestamp="1583909173396">
-      <screen x="67" y="27" width="1853" height="1053" />
+    <state x="347" y="177" key="run.anything.popup" timestamp="1584507285670">
+      <screen x="0" y="27" width="1366" height="741" />
     </state>
+    <state x="347" y="177" key="run.anything.popup/0.27.1366.741@0.27.1366.741" timestamp="1584507285670" />
+    <state x="434" y="199" width="672" height="478" key="search.everywhere.popup" timestamp="1584508392392">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="434" y="199" width="672" height="478" key="search.everywhere.popup/0.27.1366.741@0.27.1366.741" timestamp="1584508392392" />
     <state x="656" y="272" width="672" height="678" key="search.everywhere.popup/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1583909173396" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
