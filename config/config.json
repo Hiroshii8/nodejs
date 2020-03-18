@@ -1,8 +1,8 @@
 {
   "development": {
-    "username": "mixer",
-    "password": "mixer",
-    "database": "practiceSequelize",
+    "username": "avd",
+    "password": "avd",
+    "database": "practice",
     "host": "127.0.0.1",
     "dialect": "postgres",
     "operatorsAliases": false

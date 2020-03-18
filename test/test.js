@@ -1,15 +1,33 @@
 var assert = require('chai').assert;
 var expect = require('chai').expect;
 var should = require('chai').should();
-var chaiNock = require('chai-nock');
 var chai = require('chai');
-var helper = require('./helper/helper');
-chai.use(chaiNock);
+var {InitPeopleResource} = require('./helper/resource');
+var nock = require('nock');
+var app = require('./helper/dummyServer');
+var supertest = require('supertest');
+var request =  function () {
+    return supertest(app);
+}
 
-
-describe('This is for test only', () => {
-    it('Test mock', function () {
-        let isValid = 123;
-        assert.equal(isValid,123, 'result is 123')
+describe('This is for test only', (done) => {
+    beforeEach(() => {
+        nock('http://localhost:8888').get('/redis-get', {
+            key: "ANDI"
+        })
+        .reply(200, {
+            getAttendance: "ATTEND",
+            msgResult : "Attendance already created"
+        });
+    })
+    
+    it('Test Redis Mock', function () {
+        request(app).get('/redis-get').send({
+            key: "ANDI"
+        }).set('Accept', 'application/json')
+        .end((err,res) => {
+            expect(res.body.getAttendance).should.be.equal(null);
+            done();
+        });
     })
 })
