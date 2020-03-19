@@ -1,0 +1,37 @@
+syntax = "proto3";
+
+package petshop;
+
+message OwnerBasic {
+    int64 id = 1;
+    string name = 2;
+    string role = 3;
+}
+
+message OwnerData {
+    int64 id = 1;
+    string name = 2;
+    repeated PetData pets = 3;
+}
+
+message PetData {
+    int64 petID = 1;
+    string petName = 2;
+    int64 ownerID = 3;
+    string types = 4;
+}
+
+// ResponseMessage will hold data return from insertion and deletion request
+message ResponseMessage {
+    bool isSuccess = 1;
+    string message = 2;
+}
+
+service PetShop {
+    // findOwnerPets service will receive OwnerBasic data and return OwnerData
+    rpc findOwnerPets (OwnerBasic) returns (OwnerData) {}
+    // insertPets service will inserting pets data to postgreSQL
+    rpc insertPets (PetData) returns (ResponseMessage) {}
+    // deletePets service will deleting pets data to postgreSQL
+    rpc deletePets (PetData) returns (ResponseMessage) {}
+}

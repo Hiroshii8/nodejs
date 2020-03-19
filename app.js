@@ -17,7 +17,7 @@ const Handler = handler.Init(peopleService);
 route(Handler, app);
 
 // router for sequelize
-Controller(app, database.postgreSequelize);
+Controller(app, database.Sequelize);
 
 
 // sync database sequelize
