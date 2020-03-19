@@ -17,9 +17,9 @@ db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
 // models
-// db.tutorials = require('../../model/tutorial.model.js')(sequelize, Sequelize);
-db.pets = require('../../model/pet.model')(sequelize, Sequelize);
-db.owners = require('../../model/owner.model')(sequelize, Sequelize);
+// db.tutorials = require('../../models/tutorial.models.js')(sequelize, Sequelize);
+db.pets = require('../../models/pet.model')(sequelize, Sequelize);
+db.owners = require('../../models/owner.model')(sequelize, Sequelize);
 
 // relation
 db.pets.belongsTo(db.owners); // 1 - 1

@@ -1,2 +1,12 @@
 # nodejs
-learning progress for tech stack in TADA
+Learning By doing
+## Techstack
+```
+- Sequelize
+- PostgreSQL
+- Redis
+- Node js
+- Express js
+- gRPC (soon)
+- NSQ (soon)
+```
