@@ -1,6 +1,6 @@
 const promise = require('bluebird');
 const redis = require('redis');
-redisClient = redis.createClient()
+redisClient = new redis.createClient()
 promise.promisifyAll(redisClient)
 
 
