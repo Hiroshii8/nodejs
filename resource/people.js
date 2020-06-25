@@ -2,10 +2,18 @@
 // this is example for using prototype without class
 function PeopleResource(redis) {
     async function getAttendanceByName(name) {
-        return await redis.GET(name).then((res) => res).catch((err) => null);
+        return await redis.GET(name).then((res) => {
+            return res;
+        }).catch((err) => {
+            return null;
+        });
     }
     async function setAttendance(name) {
-        return await redis.SET(name, "ATTEND").then((res) => res).catch((err) => null);;
+        return await redis.SET(name, "ATTEND").then((res) => {
+            return res;
+        }).catch((err) => {
+            return null
+        });
     }
     return {
         getAttendanceByName: getAttendanceByName,
