@@ -5,11 +5,12 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon --exec babel-node app.js",
-    "test": "mocha"
+    "test": "mocha test/functional"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/register": "^7.10.3",
     "@grpc/proto-loader": "^0.5.3",
     "bluebird": "^3.7.2",
     "body-parser": "^1.19.0",
@@ -41,6 +42,8 @@
     "@babel/core": "^7.10.3",
     "@babel/node": "^7.10.3",
     "@babel/preset-env": "^7.10.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-runtime": "^6.26.0",
     "jest": "^25.2.7",
     "nyc": "^15.0.0"
   }

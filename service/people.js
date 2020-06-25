@@ -17,7 +17,7 @@ function PeopleService(resource) {
        // get empployee attendance
        let getAttendance, msgResult;
        getAttendance = await resource.getAttendanceByName(name).catch((err) => null);
-       msgResult = (getAttendance == "" || getAttendance == null ? "Attendance was not created" : "Attendance already created");
+       msgResult = (getAttendance === "" || getAttendance === null ? "Attendance was not created" : "Attendance already created");
 
        return {
            getAttendance : getAttendance,
@@ -35,4 +35,4 @@ function Init(resource) {
     return new PeopleService(resource);
 }
 
-module.exports.Init = (resource) => Init(resource);
+module.exports.Init = (peopleResource) => Init(peopleResource);

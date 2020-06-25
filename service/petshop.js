@@ -31,4 +31,4 @@ function Init(resource) {
     return new PetShopService(resource);
 }
 
-module.exports.Init = (resource) => Init(resource);
+module.exports.Init = (petShopResource) => Init(petShopResource);
