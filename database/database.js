@@ -9,4 +9,4 @@ function createDatabase(mongoDB, redis, Sequelize){
     };
 }
 // wrap all database with object like DI
-module.exports.Database = createDatabase(null, redis.redis, postgreSeq);
+module.exports.Database = new createDatabase(null, redis.redis, postgreSeq);
