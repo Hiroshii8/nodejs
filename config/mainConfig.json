@@ -1,0 +1,13 @@
+{
+  "development": {
+    "main_host": "127.0.0.1",
+    "SERVER_PORT": 8081,
+    "GRPC_PORT": 8082,
+    "REDIS_PORT": 6379,
+    
+  },
+  "testing": {
+    "server_port": 8081,
+    "grpc_port": 8082
+  }
+}
