@@ -17,7 +17,6 @@ db.Sequelize = Sequelize;
 db.sequelize = sequelize;
 
 // models
-// db.tutorials = require('../../models/tutorial.models.js')(sequelize, Sequelize);
 db.pets = require('../../models/pet.model')(sequelize, Sequelize);
 db.owners = require('../../models/owner.model')(sequelize, Sequelize);
 

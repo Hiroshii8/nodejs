@@ -1,24 +1,16 @@
+const sequelizeHelper = require('../lib/common/sequelizeHelper');
 
 function PetShopResource(redis, sequelize, mongo) {
 
-    async function createOwner(name, role) {
+    function createOwner(name, role) {
         const ownerData = {
             name: name,
             role: role
         };
-        return sequelize.owners.create(ownerData)
-            .then(newUser => {
-                console.log(`New user ${newUser.name}, with id ${newUser.id} has been created.`);
-                return res.json(newUser);
-            })
-            .catch((err) => {
-                return res.status(500).json({
-                    error: err.message
-                })
-            });
+        return sequelize.owners.create(ownerData);
     }
 
-    async function getOwnerByCondition(ownerData) {
+    function getOwnerByCondition(ownerData) {
         let condition = {};
 
         if (ownerData === ownerData.name) {
@@ -27,29 +19,16 @@ function PetShopResource(redis, sequelize, mongo) {
             condition.id = ownerData.id;
         }
 
-        return await sequelize.owners.findOne(condition)
-            .then(newUser => {
-                console.log(`New user ${newUser.name}, with id ${newUser.id} has been created.`);
-                return newUser;
-            })
-            .catch((err) => {
-                throw new Error(`resource.getOwnerByCondition : ${err}`);
-            });
+        return sequelize.owners.findOne(condition);
     }
 
-    async function findAllOwner(...object){
+    function findAllOwner(...object){
         const condition = object == null ? {} : object;
-        return await sequelize.owners.findAlll(condition)
-            .then((result) => {
-                return result;
-            })
-            .catch((err) => {
-                throw new Error(`resource.findAllOwner : ${err}`);
-            })
+        return sequelize.owners.findAll(condition)
+            .then((result) => sequelizeHelper.mapValues('id', 'name', 'role')(result));
     }
 
-    async function updateOwner(ownerData) {
-
+    function updateOwner(ownerData) {
         let updateAttribute = {};
         for (const [key, value] of Object.entries(ownerData)) {
             if (key === 'name' || key === 'role'){
@@ -59,26 +38,17 @@ function PetShopResource(redis, sequelize, mongo) {
         let condition = {
             id: ownerData.id
         };
-        return await sequelize.owners.update(updateAttribute, { where: condition })
-            .then(updatedOwner => {
-                return updatedOwner;
-            })
-            .catch(err => {
-                throw new Error(`resource.updateOwner : ${err}`);
-            })
+        return sequelize.owners.update(updateAttribute, { where: condition });
     }
 
-    async function deleteOwner(ownerID) {
-        return await sequelize.owners.destroy({})
+    function deleteOwner(ownerID) {
+        return sequelize.owners.destroy({})
             .then(deletedData => {
                 return deletedData == 1 ? true : false;
-            })
-            .catch(err => {
-                throw new Error(`resource.deleteOwner : ${err}`);
-            })
+            });
     }
 
-    async function getOwnerInfoByID(ownerID) {
+    function getOwnerInfoByID(ownerID) {
         return sequelize.owners.findByPk(ownerID)
             .then(User => {
                 console.log(`Result => ${User}`);
@@ -90,7 +60,7 @@ function PetShopResource(redis, sequelize, mongo) {
             });
     };
 
-    async function getPetsByOwnerID(ownerID) {
+    function getPetsByOwnerID(ownerID) {
         const condition = {
             owner_id: ownerID
         };

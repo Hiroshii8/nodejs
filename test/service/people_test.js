@@ -1,5 +1,4 @@
-const peopleService = require('./init_people_service').peopleService;
-const assert = require('assert');
+const peopleService = require('../helper/service/init_people_service').peopleService;
 
 require('mocha');
 const chai = require('chai');
